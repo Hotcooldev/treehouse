@@ -2,15 +2,15 @@
   "name": "treehouse",
   "version": "1.0.0",
   "description": "State management for javascript apps",
-  "author": "Mark Evans",
+  "author": "SuperSniper",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/markevans/treehouse/issues"
+    "url": "https://github.com/Hotcooldev/treehouse/issues"
   },
-  "homepage": "https://github.com/markevans/treehouse#readme",
+  "homepage": "https://github.com/Hotcooldev/treehouse#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/markevans/treehouse.git"
+    "url": "git+https://github.com/Hotcooldev/treehouse.git"
   },
   "keywords": [
     "single",
@@ -22,6 +22,7 @@
     "immutable",
     "tree"
   ],
+
   "devDependencies": {
     "@types/jest": "^23.3.11",
     "jest": "^23.6.0",

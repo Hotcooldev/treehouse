@@ -16,6 +16,7 @@ export default class App {
     this.registerEventCallbacks = []
     this.currentlyDispatchingEvent = null
   }
+  
 
   init(state: BunchOfData) {
     this.db.init(state)

@@ -36,3 +36,5 @@ export default <TProps>({
       return _render_(this.props, this.eventHandlers, this.props.__adapters__)
     }
   }
+
+  

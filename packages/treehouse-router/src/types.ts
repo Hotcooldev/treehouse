@@ -4,3 +4,4 @@ export interface Serializer {
   serialize: (state: BunchOfData) => string,
   deserialize: (str: string) => BunchOfData,
 }
+

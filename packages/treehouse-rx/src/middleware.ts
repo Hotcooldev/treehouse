@@ -20,3 +20,4 @@ const middleware: Middleware = (next, app, { getStream, isStreamSubscribedTo } :
   }
 
 export default middleware
+

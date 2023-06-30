@@ -16,6 +16,7 @@ import { BunchOfData, Data, Filterable, FilterSpec, Pipe, QuerySpec, WatchCallba
 
 export default class Query implements Pipe<Data>, Filterable {
 
+  
   args: any
   db: Db
   spec: QuerySpec

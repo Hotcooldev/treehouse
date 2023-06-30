@@ -11,3 +11,4 @@ export default (data: Data, path: Path) => {
   }
   return value
 }
+

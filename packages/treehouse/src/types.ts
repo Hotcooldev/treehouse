@@ -13,6 +13,7 @@ export interface Queryable {
   query: (querySpec: QuerySpec, args: any) => Pipe<Data>
 }
 
+
 export type Path = Array<string>
 
 export type DataLeaf = boolean | string | number | undefined | null

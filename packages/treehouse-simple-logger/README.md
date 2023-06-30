@@ -25,3 +25,4 @@ To suppress logging of certain events, you can add the tag `'nolog'` to the even
     // state, update, action, etc.
   }
 ```
+

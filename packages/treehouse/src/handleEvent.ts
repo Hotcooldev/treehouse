@@ -19,6 +19,7 @@ export default (
   if (action) {
     actionReturnValue = action(payload, app.dispatch, currentState)
   }
+  
   if (update) {
     if (!dbView || !currentState) {
       throw new Error(`'update' needs the state to be specified`)

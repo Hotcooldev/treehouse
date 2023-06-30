@@ -28,6 +28,7 @@ export default class Router {
     onUrlChanged: (state: BunchOfData) => void,
     { serializer } = { serializer: simpleSerializer }
   ) {
+    
     this.source = source
     //this.keys = source.keys
     this.onUrlChanged = onUrlChanged

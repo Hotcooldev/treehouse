@@ -24,3 +24,4 @@ const plugin: Plugin = app => {
 }
 
 export default plugin
+

@@ -14,6 +14,7 @@ export default class Cursor implements Pipe<Data>, Filterable {
     this.path = path
   }
 
+  
   pull (): Data {
     return getIn(this.db.pullData(), this.path)
   }

@@ -29,6 +29,7 @@ type State = {
   snapshotID: null | number
 }
 
+
 export default <TProps>(
   name: string,
   {

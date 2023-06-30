@@ -7,8 +7,8 @@
     "routing",
     "url"
   ],
-  "author": "Mark Evans <markevans3000@gmail.com>",
-  "homepage": "https://github.com/markevans/treehouse#readme",
+  "author": "SuperSniper",
+  "homepage": "https://github.com/Hotcooldev/treehouse#readme",
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/markevans/treehouse.git"
+    "url": "git+https://github.com/Hotcooldev/treehouse.git"
   },
   "scripts": {
     "build": "tsc",
@@ -29,9 +29,10 @@
     "watch": "tsc --watch"
   },
   "bugs": {
-    "url": "https://github.com/markevans/treehouse/issues"
+    "url": "https://github.com/Hotcooldev/treehouse/issues"
   },
   "devDependencies": {
     "treehouse": "^1.0.0"
   }
 }
+

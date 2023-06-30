@@ -19,6 +19,7 @@ export default class FilteredPipe implements Pipe<Data>, Filterable {
     return this.filterFn(this.source.pull(), this.args)
   }
 
+  
   push (value: Data): void {
     if (!this.unfilterFn) {
       throw new Error(`You need to implement 'unfilter' on a filter to be able to set through it`)

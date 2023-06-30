@@ -38,3 +38,4 @@ export default class Streams {
 
   getSubscription = (name: string) => this.subscriptions[name]
 }
+

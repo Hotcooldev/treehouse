@@ -26,3 +26,4 @@ export default class DbView implements Pipe<BunchOfData> {
   }
 
 }
+

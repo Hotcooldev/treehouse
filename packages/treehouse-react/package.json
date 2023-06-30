@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "React bindings for treehouse",
   "main": "lib/index.js",
-  "repository": "https://github.com/markevans/treehouse",
-  "author": "Mark Evans",
+  "repository": "https://github.com/Hotcooldev/treehouse",
+  "author": "SuperSinper",
   "license": "ISC",
   "private": false,
   "types": "lib/index.d.ts",
@@ -24,3 +24,4 @@
     "react": "^16.8.3"
   }
 }
+

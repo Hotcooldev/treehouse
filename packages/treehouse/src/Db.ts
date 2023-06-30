@@ -13,6 +13,7 @@ export default class Db implements Queryable {
   snapshotID: number
   updates: Array<DbUpdate>
 
+  
   constructor () {
     this.dirtyTracker = new DirtyTracker()
     this.data = null

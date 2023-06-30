@@ -24,3 +24,4 @@ const middleware: Middleware = next => (eventName, payload, spec) => {
 }
 
 export default middleware
+

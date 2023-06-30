@@ -14,3 +14,4 @@ export interface EventSpecStreams {
   injectStreams?: string[]
 }
 export interface EventSpecWithStreams extends EventSpec, EventSpecStreams {}
+

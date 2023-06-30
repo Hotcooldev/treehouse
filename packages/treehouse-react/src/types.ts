@@ -31,3 +31,4 @@ export interface ComponentSpec<TProps> {
     adapters: { [name: string]: React.Component },
   ) => React.ReactNode,
 }
+

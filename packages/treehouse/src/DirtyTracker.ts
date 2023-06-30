@@ -18,6 +18,7 @@ export default class DirtyTracker {
     }
     return this.channels[name]
   }
+  
 
   track (callback: WatchCallback, channel: string) {
     this.all.add(callback)
